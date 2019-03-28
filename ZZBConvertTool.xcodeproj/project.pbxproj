@@ -15,10 +15,11 @@
 		18D0C096224B727600952AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C095224B727600952AEF /* main.m */; };
 		18D0C0A0224B727600952AEF /* ZZBConvertToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C09F224B727600952AEF /* ZZBConvertToolTests.m */; };
 		18D0C0AB224B727600952AEF /* ZZBConvertToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0AA224B727600952AEF /* ZZBConvertToolUITests.m */; };
-		18D0C0BC224B769800952AEF /* ZZBDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0BB224B769800952AEF /* ZZBDecimal.m */; };
-		18D0C0BF224B782F00952AEF /* ZZBBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0BE224B782F00952AEF /* ZZBBinary.m */; };
-		18D0C0C3224B78A200952AEF /* ZZBOctal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0C2224B78A200952AEF /* ZZBOctal.m */; };
-		18D0C0C6224B78D000952AEF /* ZZBHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0C5224B78D000952AEF /* ZZBHexadecimal.m */; };
+		18D0C0BC224B769800952AEF /* ZZBConvertDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0BB224B769800952AEF /* ZZBConvertDecimal.m */; };
+		18D0C0BF224B782F00952AEF /* ZZBConvertBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0BE224B782F00952AEF /* ZZBConvertBinary.m */; };
+		18D0C0C3224B78A200952AEF /* ZZBConvertOctal.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0C2224B78A200952AEF /* ZZBConvertOctal.m */; };
+		18D0C0C6224B78D000952AEF /* ZZBConvertHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0C5224B78D000952AEF /* ZZBConvertHex.m */; };
+		18D0C0C9224C567000952AEF /* ZZBConvertHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0C0C8224C567000952AEF /* ZZBConvertHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +57,16 @@
 		18D0C0AA224B727600952AEF /* ZZBConvertToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertToolUITests.m; sourceTree = "<group>"; };
 		18D0C0AC224B727600952AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D0C0B9224B750100952AEF /* ZZBConvertTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertTool.h; sourceTree = "<group>"; };
-		18D0C0BA224B769800952AEF /* ZZBDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBDecimal.h; sourceTree = "<group>"; };
-		18D0C0BB224B769800952AEF /* ZZBDecimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBDecimal.m; sourceTree = "<group>"; };
-		18D0C0BD224B782F00952AEF /* ZZBBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBBinary.h; sourceTree = "<group>"; };
-		18D0C0BE224B782F00952AEF /* ZZBBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBBinary.m; sourceTree = "<group>"; };
-		18D0C0C1224B78A200952AEF /* ZZBOctal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBOctal.h; sourceTree = "<group>"; };
-		18D0C0C2224B78A200952AEF /* ZZBOctal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBOctal.m; sourceTree = "<group>"; };
-		18D0C0C4224B78D000952AEF /* ZZBHexadecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBHexadecimal.h; sourceTree = "<group>"; };
-		18D0C0C5224B78D000952AEF /* ZZBHexadecimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBHexadecimal.m; sourceTree = "<group>"; };
+		18D0C0BA224B769800952AEF /* ZZBConvertDecimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertDecimal.h; sourceTree = "<group>"; };
+		18D0C0BB224B769800952AEF /* ZZBConvertDecimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertDecimal.m; sourceTree = "<group>"; };
+		18D0C0BD224B782F00952AEF /* ZZBConvertBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertBinary.h; sourceTree = "<group>"; };
+		18D0C0BE224B782F00952AEF /* ZZBConvertBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertBinary.m; sourceTree = "<group>"; };
+		18D0C0C1224B78A200952AEF /* ZZBConvertOctal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertOctal.h; sourceTree = "<group>"; };
+		18D0C0C2224B78A200952AEF /* ZZBConvertOctal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertOctal.m; sourceTree = "<group>"; };
+		18D0C0C4224B78D000952AEF /* ZZBConvertHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertHex.h; sourceTree = "<group>"; };
+		18D0C0C5224B78D000952AEF /* ZZBConvertHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertHex.m; sourceTree = "<group>"; };
+		18D0C0C7224C567000952AEF /* ZZBConvertHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBConvertHelp.h; sourceTree = "<group>"; };
+		18D0C0C8224C567000952AEF /* ZZBConvertHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBConvertHelp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,15 +152,17 @@
 		18D0C0B8224B74B300952AEF /* ConvertTool */ = {
 			isa = PBXGroup;
 			children = (
+				18D0C0BD224B782F00952AEF /* ZZBConvertBinary.h */,
+				18D0C0BE224B782F00952AEF /* ZZBConvertBinary.m */,
+				18D0C0BA224B769800952AEF /* ZZBConvertDecimal.h */,
+				18D0C0BB224B769800952AEF /* ZZBConvertDecimal.m */,
+				18D0C0C7224C567000952AEF /* ZZBConvertHelp.h */,
+				18D0C0C8224C567000952AEF /* ZZBConvertHelp.m */,
+				18D0C0C4224B78D000952AEF /* ZZBConvertHex.h */,
+				18D0C0C5224B78D000952AEF /* ZZBConvertHex.m */,
+				18D0C0C1224B78A200952AEF /* ZZBConvertOctal.h */,
+				18D0C0C2224B78A200952AEF /* ZZBConvertOctal.m */,
 				18D0C0B9224B750100952AEF /* ZZBConvertTool.h */,
-				18D0C0BA224B769800952AEF /* ZZBDecimal.h */,
-				18D0C0BB224B769800952AEF /* ZZBDecimal.m */,
-				18D0C0BD224B782F00952AEF /* ZZBBinary.h */,
-				18D0C0BE224B782F00952AEF /* ZZBBinary.m */,
-				18D0C0C1224B78A200952AEF /* ZZBOctal.h */,
-				18D0C0C2224B78A200952AEF /* ZZBOctal.m */,
-				18D0C0C4224B78D000952AEF /* ZZBHexadecimal.h */,
-				18D0C0C5224B78D000952AEF /* ZZBHexadecimal.m */,
 			);
 			path = ConvertTool;
 			sourceTree = "<group>";
@@ -292,11 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D0C0BC224B769800952AEF /* ZZBDecimal.m in Sources */,
-				18D0C0BF224B782F00952AEF /* ZZBBinary.m in Sources */,
-				18D0C0C3224B78A200952AEF /* ZZBOctal.m in Sources */,
+				18D0C0BC224B769800952AEF /* ZZBConvertDecimal.m in Sources */,
+				18D0C0BF224B782F00952AEF /* ZZBConvertBinary.m in Sources */,
+				18D0C0C3224B78A200952AEF /* ZZBConvertOctal.m in Sources */,
+				18D0C0C9224C567000952AEF /* ZZBConvertHelp.m in Sources */,
 				18D0C08B224B727500952AEF /* ViewController.m in Sources */,
-				18D0C0C6224B78D000952AEF /* ZZBHexadecimal.m in Sources */,
+				18D0C0C6224B78D000952AEF /* ZZBConvertHex.m in Sources */,
 				18D0C096224B727600952AEF /* main.m in Sources */,
 				18D0C088224B727500952AEF /* AppDelegate.m in Sources */,
 			);
