@@ -49,7 +49,7 @@
 }
 
 + (NSString *)getHexStrWithOneInt:(NSInteger)oneInt{
-    if(oneInt>=0 || oneInt <=9){
+    if(oneInt>=0 && oneInt <=9){
         return [NSString stringWithFormat:@"%@", @(oneInt)];
     }
     else if(oneInt == 10){
